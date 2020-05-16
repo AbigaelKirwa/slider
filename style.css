@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(55, 170, 132);
+}
+.slider{
+    width: 1000px;
+    height: 500px;
+    background-image: url(404.JPG);
+    margin:50px auto;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide{
+    50%{
+    background-image: url (404.JPG);
+    
+    }
+    100%{
+        background-image: url(fish-33712_1280.png);
+        
+        }
+    
+
+}
+    
+    
